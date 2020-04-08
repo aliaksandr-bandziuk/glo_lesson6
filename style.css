@@ -1,4 +1,10 @@
+body {
+    background-color: seagreen;
+}
+
 h1 {
     text-align: center;
-    color: #123456;
+    color: red;
+    padding-top: 150px;
+    font-size: 50px;
 }

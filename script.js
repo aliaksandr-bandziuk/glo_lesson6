@@ -6,8 +6,6 @@ let isNumber = function(n) {
 
 function startGame() {
     let randomNumber = Math.floor(Math.random() * 100) + 1;
-    // это выводит загаданное число
-    // alert(randomNumber);
 
     function answer() {
         let count = prompt('Угадай число от 1 до 100');
@@ -33,7 +31,7 @@ function startGame() {
         }
 
         if (+count === randomNumber) {
-            alert('Бинго! Вы восхитительны!');
+            alert('Бинго! Ты угадал число ' + randomNumber + '!');
         }
        
     }
